@@ -890,7 +890,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!114 &1238485309
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,6 +1126,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d0529ea76cd1a45c18142c9c9c56dd24, type: 3}
       propertyPath: m_Name
       value: bowl (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d0529ea76cd1a45c18142c9c9c56dd24, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0529ea76cd1a45c18142c9c9c56dd24, type: 3}
